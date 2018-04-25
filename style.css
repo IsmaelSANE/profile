@@ -1,0 +1,135 @@
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+element.style {
+}
+body {
+    background-image: url(images/six-echo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+h1 {
+    color: #DD5555;
+    font-size: 22px;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    color: #DD5555;
+  font-size: 22px;
+}
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+p{
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(225, 83, 87, 0.3);
+}
+a:hover {
+  text-decoration: underline;
+  color: rgba(225, 83, 87);
+}
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+li {
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container{
+  width: 500px; /* This sets the width */
+  margin: 0px auto; /* This automatically sets left/right margins */
+}
+.img-circle{
+  border-radius: 50%;
+}
+.text-center{
+  text-align: center;
+}
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+.btn-red{
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btn-red:hover{
+  background-color: #C61414;
+  color: white;
+}
+
+.card{
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+#img-profile{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+}
+#movies{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#movies img{
+  width: 80px;
+}
+#movies td{
+  padding: 10px;
+}
+
